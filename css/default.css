@@ -1,0 +1,99 @@
+@charset "utf-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+ul {
+    list-style:none;
+}
+a{text-decoration:none; color:#000;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+
+/*webfont*/
+@font-face{font-family:"SpoqaHanSans";
+		src:url(font/SpoqaHanSans.woff);
+		src:url(font/SpoqaHanSans.eot);
+		src:url(font/SpoqaHanSans.ttf);
+}
+
+
+/*type*/
+body{font-family:"SpoqaHanSans";font-size: 14px;color: #BDBDBD;line-height: 21px;text-align:center;}
+h2.project{font-size:20px;font-weight:100;color:#fff;margin-bottom:8px;padding-top:60px;}
+p.date{font-size: 12px;color: #FFFFFF;line-height:18px;font-weight:100;margin-bottom:24px;}
+p.title{font-size:25px;font-weight:100;color:#fff;line-height:38px;margin-bottom:15px;}
+p.kbl{color:#fff;line-height:21px;font-weight:300; margin:0 300px 50px 300px;}
+
+/*button*/
+.btn-white:hover,.btn-white:visited:hover {background: #fff;color: #222;}
+.btn-white {border: 2px solid #fff;padding: 12px 27px;height: 40px;min-width: 150px;line-height: 36px;font-size: 12px;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;border-radius: 0;color: #fff;text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin-right: 8px;margin-bottom: 24px;
+}
+
+.btn-yellow:hover,.btn-yellow:visited:hover {-moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
+}
+.btn-yellow {border: 1px solid #E3B62D;padding: 12px 27px;height: 40px;min-width: 150px;line-height: 36px;font-size: 12px;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;border-radius: 0;color: #fff;text-shadow: 0px 0px 4px rgba(0,0,0,0.50);background-color: #F9C833;text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin-right: 8px;margin-bottom: 24px;
+}
+
+/*background*/
+.about {background-color:#222222;}
+.projects{background-color:#0090D5;}
+footer{background:#292929;}
+
+/*layout*/
+#footer{height:50px;text-align:center;clear:both;line-height:3.5;}
+img.kbl {margin-top: 62px;margin-bottom:-6px;}
+img.logo{margin-top:64px;margin-bottom:32px;}
+div.btn-contact{padding:20px 0 60px 0;}
+img.fb{margin-right: 8px;}
+
+@media screen and (max-width: 1023px) {
+p.about{margin:0 20px 0 20px;}
+p.kbl{color:#fff;line-height:21px;font-weight:300;margin-bottom:32px;margin:0 200px 50px 200px;}
+img.main{width:50%; padding:0 10px 0 10px;}
+}
+
+@media screen and (max-width: 767px) {
+img.main{width:80%; padding:0 10px 0 10px;}
+img.kbl {width:95%; padding:0 10px 0 10px;}
+p.about{margin:0 20px 0 20px;}
+p.kbl{color:#fff;line-height:21px;font-weight:300;margin-bottom:32px;margin:0 25px 50px 25px;}
+img.logo{width:30%;}
+
+
+
